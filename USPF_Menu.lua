@@ -37,7 +37,7 @@ USPF.Options = {
 }
 
 function USPF:SetupMenu(charId)
-	local USPF_LAM2 = LibStub("LibAddonMenu-2.0")
+	local USPF_LAM2 = LibAddonMenu2
 	if (not USPF_LAM2) then return end
 	
 	USPF.panelData = {

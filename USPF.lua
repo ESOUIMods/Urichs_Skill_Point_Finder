@@ -13,7 +13,7 @@ local IAchC, GAchNCr, GAchCr = IsAchievementComplete, GetAchievementNumCriteria,
 local GS, zf, strF = GetString, zo_strformat, string.format
 local _
 
-local USPF_LTF = LibStub("LibTableFunctions-1.0")
+local USPF_LTF = LibTableFunctions
 if (not USPF_LTF) then return end
 
 USPF.settings = {

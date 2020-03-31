@@ -3,8 +3,7 @@
 ## Version: 5.0.5
 ## APIVersion: 100030
 ## SavedVariables: USPF_Settings
-## DependsOn: LibStub LibAddonMenu-2.0
-## OptionalDependsOn: LibTableFunctions-1.0
+## DependsOn: LibAddonMenu-2.0 LibTableFunctions-1.0
 ## 
 ##
 ## This Add-on is not created by, affiliated with or sponsored by ZeniMax Media
@@ -13,8 +12,6 @@
 ## other countries. All rights reserved
 ##
 ## You can read the full terms at https://account.elderscrollsonline.com/add-on-terms
-
-libs\LibTableFunctions\LibTableFunctions-1.0.lua
 
 lang\strings.lua
 lang\$(language).lua
