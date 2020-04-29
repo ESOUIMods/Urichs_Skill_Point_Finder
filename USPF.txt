@@ -1,7 +1,8 @@
 ## Title: Urich's Skill Point Finder
 ## Author: Urich
-## Version: 5.0.5
-## APIVersion: 100030
+## Version: 5.0.8
+## AddOnVersion: 508
+## APIVersion: 100030 100031
 ## SavedVariables: USPF_Settings
 ## DependsOn: LibAddonMenu-2.0 LibTableFunctions-1.0
 ## 
