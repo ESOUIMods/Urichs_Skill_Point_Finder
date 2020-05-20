@@ -1,11 +1,11 @@
 ## Title: Urich's Skill Point Finder
-## Author: Urich
-## Version: 5.0.8
-## AddOnVersion: 508
+## Author: Urich/Onigar
+## Version: 5.1.0
+## AddOnVersion: 510
 ## APIVersion: 100030 100031
 ## SavedVariables: USPF_Settings
 ## DependsOn: LibAddonMenu-2.0 LibTableFunctions-1.0
-## 
+##
 ##
 ## This Add-on is not created by, affiliated with or sponsored by ZeniMax Media
 ## Inc. or its affiliates. The Elder Scrolls® and related logos are registered
