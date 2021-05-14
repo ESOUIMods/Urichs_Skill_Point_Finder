@@ -53,7 +53,7 @@ USPF.settings = {
 	MWC = false,
 	SSC = false,
 	EWC = false,
-  GMC = false,
+	GMC = false,
 }
 
 USPF.defaults = {
@@ -66,23 +66,23 @@ USPF.defaults = {
 
 
 USPF.ptsData = {
-	Tot		= 0, GenTot	 = 0, ZQTot	  = 0, numSSTot	= 0, SSTot	= 0,
-	GDTot	= 0, PDTot	 = 0, Level	  = 0, MainQ	= 0, FolDis	= 0,
-	MWChar	= 0, SUChar  = 0, EWChar  = 0, GMChar  = 0,
-  PvPRank	= 0, MaelAr	= 0,
+	Tot	= 0, GenTot	= 0, ZQTot	= 0, numSSTot	= 0, SSTot	= 0,
+	GDTot	= 0, PDTot	= 0, Level	= 0, MainQ	= 0, FolDis	= 0,
+	MWChar	= 0, SUChar	= 0, EWChar	= 0, GMChar	= 0,
+	PvPRank	= 0, MaelAr	= 0,
 	ZQ = {
 		AD0 = 0, AD1 = 0, AD2 = 0, AD3 = 0, AD4 = 0, AD5  = 0, DC0a = 0, DC0b = 0,
 		DC1 = 0, DC2 = 0, DC3 = 0, DC4 = 0, DC5 = 0, EP0a = 0, EP0b = 0, EP1  = 0,
 		EP2 = 0, EP3 = 0, EP4 = 0, EP5 = 0, CH  = 0, CAD  = 0, CDC  = 0, CEP  = 0,
 		CMT = 0, LCL = 0, UCL = 0, CC  = 0, DB  = 0, IC   = 0, MW   = 0, RO   = 0,
-		TG  = 0, SU  = 0, MM  = 0, NE  = 0, WP  = 0, SE   = 0, WS = 0,
+		TG  = 0, SU  = 0, MM  = 0, NE  = 0, WP  = 0, SE   = 0, WS   = 0, TR   = 0,
 	},
 	SS = {
 		AD0 = 0, AD1 = 0, AD2 = 0, AD3 = 0, AD4 = 0, AD5  = 0, DC0a = 0, DC0b = 0,
 		DC1 = 0, DC2 = 0, DC3 = 0, DC4 = 0, DC5 = 0, EP0a = 0, EP0b = 0, EP1  = 0,
 		EP2 = 0, EP3 = 0, EP4 = 0, EP5 = 0, CH  = 0, CAD  = 0, CDC  = 0, CEP  = 0,
 		CMT = 0, LCL = 0, UCL = 0, IC  = 0, WR  = 0, HB   = 0, GC   = 0, VV   = 0,
-		CC  = 0, MQ  = 0, SU  = 0, MM  = 0, NE  = 0, SE   = 0, WS = 0,
+		CC  = 0, MQ  = 0, SU  = 0, MM  = 0, NE  = 0, SE   = 0, WS   = 0, TR   = 0,
 	},
 	GD = {
 		BC1 = 0, BC2 = 0, EH1 = 0, EH2 = 0, CA1 = 0, CA2 = 0, TI = 0, SW = 0,
@@ -96,21 +96,21 @@ USPF.ptsData = {
 		AD1 = 0, AD2 = 0, AD3 = 0, AD4 = 0, AD5 = 0, DC1 = 0, DC2 = 0, DC3 = 0,
 		DC4 = 0, DC5 = 0, EP1 = 0, EP2 = 0, EP3 = 0, EP4 = 0, EP5 = 0, CH  = 0,
 		VFW = 0, VNC = 0, WOO = 0, WRK = 0, SKW = 0, SSH = 0, RN  = 0, OC  = 0,
-    LT = 0, NK = 0,
+		LT  = 0, NK  = 0,
 	},
 }
 
-USPF.ptsTots = {	--Tot and GenTot are 444 and 129 because you can't do more than one DLC tutorial.
-	Tot		= 457, GenTot = 129, ZQTot	= 103, numSSTot	= 471, SSTot  = 157,
+USPF.ptsTots = {	--Tot and GenTot are 468 and 129 because you can't do more than one DLC tutorial.
+	Tot	= 468, GenTot = 129, ZQTot	= 112, numSSTot	= 471, SSTot  = 159,
 	GDTot	=  42, PDTot  =  26, Level	=  64, MainQ	=  11, FolDis =   2,
-	MWChar	=   1, SUChar =   1, EWChar =   1, GMChar = 1,
-  PvPRank  =  50, MaelAr =   1,
+	MWChar	=   1, SUChar =   1, EWChar	=   1, GMChar	=   1,
+	PvPRank	=  50, MaelAr =   1,
 	ZQ = {
 		AD0 = 0, AD1 = 3, AD2 =  3, AD3 = 3, AD4 = 3, AD5  = 3, DC0a = 0, DC0b = 0,
 		DC1 = 4, DC2 = 3, DC3 =  3, DC4 = 3, DC5 = 3, EP0a = 0, EP0b = 0, EP1  = 3,
 		EP2 = 3, EP3 = 3, EP4 =  3, EP5 = 3, CH  = 3, CAD  = 0, CDC  = 0, CEP  = 0,
 		CMT = 0, LCL = 0, UCL =  0, CC  = 8, DB  = 8, IC   = 1, MW   = 3, RO   = 3,
-		TG  = 6, SU  = 3, MM  =  7, NE  = 3, WP  = 0, SE   = 9, WS = 3,
+		TG  = 6, SU  = 3, MM  =  7, NE  = 3, WP  = 0, SE   = 9, WS   = 3, TR   = 9,
 	},
 	SS = {
 		AD0  = 6,  AD1 = 16, AD2 = 16, AD3 = 16, AD4 = 16, AD5 = 16, DC0a = 3,
@@ -118,7 +118,7 @@ USPF.ptsTots = {	--Tot and GenTot are 444 and 129 because you can't do more than
 		EP0b = 3,  EP1 = 16, EP2 = 16, EP3 = 16, EP4 = 16, EP5 = 16, CH   = 16,
 		CAD  = 15, CDC = 15, CEP = 15, CMT = 1,  LCL = 12, UCL = 6,  IC   = 13,
 		WR   = 17, HB  = 6,  GC  = 6,  VV  = 18, CC  = 6,  MQ  = 1,  SU   = 18,
-		MM   = 6,  NE  = 18, SE  = 6, WS = 18,
+		MM   = 6,  NE  = 18, SE  = 6,  WS  = 18, TR  = 6,
 	},
 	GD = {
 		BC1 = 1, BC2 = 1, EH1 = 1, EH2 = 1, CA1 = 1, CA2 = 1, TI = 1, SW = 1,
@@ -132,19 +132,20 @@ USPF.ptsTots = {	--Tot and GenTot are 444 and 129 because you can't do more than
 		AD1 = 1, AD2 = 1, AD3 = 1, AD4 = 1, AD5 = 1, DC1 = 1, DC2 = 1, DC3 = 1,
 		DC4 = 1, DC5 = 1, EP1 = 1, EP2 = 1, EP3 = 1, EP4 = 1, EP5 = 1, CH  = 1,
 		VFW = 1, VNC = 1, WOO = 1, WRK = 1, SKW = 1, SSH = 1, RN  = 1, OC  = 1,
-    LT = 1, NK = 1,
+		LT  = 1, NK  = 1,
 	},
 }
 
 local tempZId = {
 	ZN = {
-		AD0  = 537, AD1  =  381, AD2  = 383, AD3 =  108, AD4 =  58, AD5 =  382, 
-		DC0A = 535, DC0B =  534, DC1  =   3, DC2 =   19, DC3 =  20, DC4 =  104,
-		DC5  =  92, EP0B =  280, EP0A = 281, EP1 =   41, EP2 =  57, EP3 =  117,
-		EP4  = 101, EP5  =  103, CH   = 347, CYD =  181, CAD = 181, CDC =  181,
-		CEP  = 181, CMT  =  181, CL   = 888, LCL =  888, UCL = 888, IC  =  584,
-		RO   = 684, HB   =  816, GC   = 823, VV  =  849, CC  = 980, SU  = 1011,
-		MM   = 726, NE   = 1086, WP   = 586, SE  = 1133, WS = 1160, BGC = 1161,
+		AD0  =  537, AD1  =  381, AD2  = 383, AD3 =  108, AD4 =  58, AD5 =  382,
+		DC0A =  535, DC0B =  534, DC1  =   3, DC2 =   19, DC3 =  20, DC4 =  104,
+		DC5  =   92, EP0B =  280, EP0A = 281, EP1 =   41, EP2 =  57, EP3 =  117,
+		EP4  =  101, EP5  =  103, CH   = 347, CYD =  181, CAD = 181, CDC =  181,
+		CEP  =  181, CMT  =  181, CL   = 888, LCL =  888, UCL = 888, IC  =  584,
+		RO   =  684, HB   =  816, GC   = 823, VV  =  849, CC  = 980, SU  = 1011,
+		MM   =  726, NE   = 1086, WP   = 586, SE  = 1133, WS = 1160, BGC = 1161,
+		TR   = 1207,
 	},
 	GDN = {
 		BC1 =  380, BC2 =  935, EH1 =  126, EH2 =  931, CA1 =  176, CA2 =  681,
@@ -160,7 +161,7 @@ local tempZId = {
 		DC2 = 142, DC3 = 162, DC4 =  308, DC5 =  169, EP1 =  216, EP2 =  306,
 		EP3 = 134, EP4 = 339, EP5 =  341, CH  =  557, WOO =  706, WRK =  705,
 		VFW = 919, VNC = 918, SKW = 1020, SSH = 1021, RN  = 1089, OC  = 1090,
-    LT = 1186, NK = 1187,
+		LT  = 1186, NK = 1187,
 	},
 }
 
@@ -173,7 +174,7 @@ USPF.data = {
 		CH  =  957, DB  = 1444, DC1 =  953, DC2 =  954, DC3 =  955, DC4 =  956,
 		DC5 =  958, EP1 =  948, EP2 =  949, EP3 =  950, EP4 =  951, EP5 =  952,
 		IC  = 1175, RO  = 1260, TG  = 1363, SU  = 2208, MM  = 2339, NE  = 2488,
-		SE  = 2604, WS = 2722,
+		SE  = 2604, WS  = 2716,
 	},
 	AD1 = {	--943
 		{4222,  360, zf("<<t:1>>", GS(USPF_QUEST_AD1_1)),	1},
@@ -310,8 +311,8 @@ USPF.data = {
 		RM  = {28, 5403,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_RM)),		zf("<<C:1>>", GZNBId(tempZId.ZN.EP3)),	zf("<<C:1>>", GZNBId(tempZId.GDN.RM))},
 		BF  = {29, 5889,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_BF)),		zf("<<C:1>>", GZNBId(tempZId.ZN.CL)),	zf("<<C:1>>", GZNBId(tempZId.GDN.BF))},
 		FH  = {30, 5891,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_FH)),		zf("<<C:1>>", GZNBId(tempZId.ZN.CL)),	zf("<<C:1>>", GZNBId(tempZId.GDN.FH))},
-		FL	= {31, 6064,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_FL)),		zf("<<C:1>>", GZNBId(tempZId.ZN.DC5)),	zf("<<C:1>>", GZNBId(tempZId.GDN.FL))},
-		SP	= {32, 6065,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_SP)),		zf("<<C:1>>", GZNBId(tempZId.ZN.DC2)),	zf("<<C:1>>", GZNBId(tempZId.GDN.SP))},
+		FL  = {31, 6064,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_FL)),		zf("<<C:1>>", GZNBId(tempZId.ZN.DC5)),	zf("<<C:1>>", GZNBId(tempZId.GDN.FL))},
+		SP  = {32, 6065,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_SP)),		zf("<<C:1>>", GZNBId(tempZId.ZN.DC2)),	zf("<<C:1>>", GZNBId(tempZId.GDN.SP))},
 		MHK = {33, 6186,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_MHK)),	zf("<<C:1>>", GZNBId(tempZId.ZN.AD5)),	zf("<<C:1>>", GZNBId(tempZId.GDN.MHK))},
 		MOS = {34, 6188,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_MOS)),	zf("<<C:1>>", GZNBId(tempZId.ZN.AD3)),	zf("<<C:1>>", GZNBId(tempZId.GDN.MOS))},
 		DoM = {35, 6251,    0, zf("<<t:1>>", GS(USPF_QUEST_GD_DoM)),	zf("<<C:1>>", GZNBId(tempZId.ZN.GC)),	zf("<<C:1>>", GZNBId(tempZId.GDN.DoM))},
@@ -398,8 +399,19 @@ USPF.data = {
 		{6466, 2722, zf("<<t:1>>", GS(USPF_QUEST_WS_2)),	1},
 		{6481, 2725, zf("<<t:1>>", GS(USPF_QUEST_WS_3)),	1},
 	},
-  GO = {
-    {6455,    0, zf("<<t:1>>", GS(USPF_QUEST_GO)),		1},
+	GO = {
+		{6455,    0, zf("<<t:1>>", GS(USPF_QUEST_GO)),		1},
+	},
+	TR = {
+		{6550, 2930, zf("<<t:1>>", GS(USPF_QUEST_TR_1)),	1},
+		{6551, 2931, zf("<<t:1>>", GS(USPF_QUEST_TR_2)),	1},
+		{6547, 2932, zf("<<t:1>>", GS(USPF_QUEST_TR_3)),	1},
+		{6548, 2933, zf("<<t:1>>", GS(USPF_QUEST_TR_4)),	1},
+		{6554, 2934, zf("<<t:1>>", GS(USPF_QUEST_TR_5)),	1},
+		{6566, 2934, zf("<<t:1>>", GS(USPF_QUEST_TR_6)),	1},
+		{6552, 2937, zf("<<t:1>>", GS(USPF_QUEST_TR_7)),	1},
+		{6560, 2936, zf("<<t:1>>", GS(USPF_QUEST_TR_8)),	1},
+		{6570, 2939, zf("<<t:1>>", GS(USPF_QUEST_TR_9)),	1},
 	},
 	PD = {
 		AD1	= { 1,  468, zf("<<C:1>>", GZNBId(tempZId.ZN.AD1)), zf("<<C:1>>", GZNBId(tempZId.PDN.AD1))},
@@ -426,8 +438,8 @@ USPF.data = {
 		SSH	= {22, 2095, zf("<<C:1>>", GZNBId(tempZId.ZN.SU)),  zf("<<C:1>>", GZNBId(tempZId.PDN.SSH))},
 		RN	= {23, 2444, zf("<<C:1>>", GZNBId(tempZId.ZN.NE)),  zf("<<C:1>>", GZNBId(tempZId.PDN.RN))},
 		OC	= {24, 2445, zf("<<C:1>>", GZNBId(tempZId.ZN.NE)),  zf("<<C:1>>", GZNBId(tempZId.PDN.OC))},
-    LT  = {25, 2714, zf("<<C:1>>", GZNBId(tempZId.ZN.WS)),  zf("<<C:1>>", GZNBId(tempZId.PDN.LT))},
-    NK  = {26, 2715, zf("<<C:1>>", GZNBId(tempZId.ZN.BGC)),  zf("<<C:1>>", GZNBId(tempZId.PDN.NK))},
+		LT	= {25, 2714, zf("<<C:1>>", GZNBId(tempZId.ZN.WS)),  zf("<<C:1>>", GZNBId(tempZId.PDN.LT))},
+		NK	= {26, 2715, zf("<<C:1>>", GZNBId(tempZId.ZN.BGC)),  zf("<<C:1>>", GZNBId(tempZId.PDN.NK))},
 	},
 	SS = {
 		MQ	 = { 1, 2521, zf("<<C:1>>", GZNBId(tempZId.ZN.WP))},
@@ -437,15 +449,15 @@ USPF.data = {
 		AD3	 = { 5,  683, zf("<<C:1>>", GZNBId(tempZId.ZN.AD3))},
 		AD4	 = { 6,  684, zf("<<C:1>>", GZNBId(tempZId.ZN.AD4))},
 		AD5	 = { 7,  685, zf("<<C:1>>", GZNBId(tempZId.ZN.AD5))},
-		DC0a = { 8,  408, zf("<<C:1>>", GZNBId(tempZId.ZN.DC0A))},
-		DC0b = { 9,  407, zf("<<C:1>>", GZNBId(tempZId.ZN.DC0B))},
+		DC0a	 = { 8,  408, zf("<<C:1>>", GZNBId(tempZId.ZN.DC0A))},
+		DC0b	 = { 9,  407, zf("<<C:1>>", GZNBId(tempZId.ZN.DC0B))},
 		DC1	 = {10,  409, zf("<<C:1>>", GZNBId(tempZId.ZN.DC1))},
 		DC2	 = {11,  515, zf("<<C:1>>", GZNBId(tempZId.ZN.DC2))},
 		DC3	 = {12,  554, zf("<<C:1>>", GZNBId(tempZId.ZN.DC3))},
 		DC4	 = {13,  556, zf("<<C:1>>", GZNBId(tempZId.ZN.DC4))},
 		DC5	 = {14,  557, zf("<<C:1>>", GZNBId(tempZId.ZN.DC5))},
-		EP0a = {15,  405, zf("<<C:1>>", GZNBId(tempZId.ZN.EP0A))},
-		EP0b = {16,  398, zf("<<C:1>>", GZNBId(tempZId.ZN.EP0B))},
+		EP0a	 = {15,  405, zf("<<C:1>>", GZNBId(tempZId.ZN.EP0A))},
+		EP0b	 = {16,  398, zf("<<C:1>>", GZNBId(tempZId.ZN.EP0B))},
 		EP1	 = {17,  397, zf("<<C:1>>", GZNBId(tempZId.ZN.EP1))},
 		EP2	 = {18,  547, zf("<<C:1>>", GZNBId(tempZId.ZN.EP2))},
 		EP3	 = {19,  687, zf("<<C:1>>", GZNBId(tempZId.ZN.EP3))},
@@ -468,7 +480,8 @@ USPF.data = {
 		MM	 = {36, 2291, zf("<<C:1>>", GZNBId(tempZId.ZN.MM))},
 		NE	 = {37, 2461, zf("<<C:1>>", GZNBId(tempZId.ZN.NE))},
 		SE	 = {38, 2562, zf("<<C:1>>", GZNBId(tempZId.ZN.SE))},
-    WS   = {39, 2687, zf("<<C:1>>", GZNBId(tempZId.ZN.WS))},
+		WS	 = {39, 2687, zf("<<C:1>>", GZNBId(tempZId.ZN.WS))},
+		TR	 = {40, 2857, zf("<<C:1>>", GZNBId(tempZId.ZN.TR))},
 	},
 	racialLineIds = {
 		--RaceId	SkillLineId	Race
@@ -515,7 +528,7 @@ local function USPF_ResetSelectedCharacter()
 	if(selectedChar ~= GCCId()) then
 		USPF_GUI_Header_CharList.comboBox = USPF_GUI_Header_CharList.comboBox or ZO_ComboBox_ObjectFromContainer(USPF_GUI_Header_CharList)
 		local USPF_comboBox = USPF_GUI_Header_CharList.comboBox
-		
+
 		local name, id = nil, nil
 		for k,_ in ipairs(USPF.charData) do
 			name, _, _, _, _, _, id, _ = GetCharacterInfo(k)
@@ -594,10 +607,11 @@ local function USPF_UpdateGUITable()
 		SO	 = GetQuestTooltipText("SO"),
 		TG	 = GetQuestTooltipText("TG"),
 		SU	 = GetQuestTooltipText("SU"),
-    WS   = GetQuestTooltipText("WS"),
-    GO   = GetQuestTooltipText("GO"),
+		WS   = GetQuestTooltipText("WS"),
+		GO   = GetQuestTooltipText("GO"),
+		TR   = GetQuestTooltipText("TR"),
 	}
-	
+
 	USPF.GUI = {
 		GSP = {
 			{1, GS(USPF_GUI_CHAR_LEVEL),	USPF.ptsData.Level,		USPF.ptsTots.Level,		GS(USPF_QUEST_NA)},
@@ -650,7 +664,8 @@ local function USPF_UpdateGUITable()
 			{36, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.MM)),						USPF.ptsData.ZQ.MM,		USPF.ptsTots.ZQ.MM,		USPF.ptsData.SS.MM,		USPF.ptsTots.SS.MM,		questTooltips.MM},
 			{37, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.NE)),						USPF.ptsData.ZQ.NE,		USPF.ptsTots.ZQ.NE,		USPF.ptsData.SS.NE,		USPF.ptsTots.SS.NE,		questTooltips.NE},
 			{38, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.SE)),						USPF.ptsData.ZQ.SE,		USPF.ptsTots.ZQ.SE,		USPF.ptsData.SS.SE,		USPF.ptsTots.SS.SE,		questTooltips.SE},
-      {39, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.WS)),						USPF.ptsData.ZQ.WS,		USPF.ptsTots.ZQ.WS,		USPF.ptsData.SS.WS,		USPF.ptsTots.SS.WS,		questTooltips.WS},
+			{39, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.WS)),						USPF.ptsData.ZQ.WS,		USPF.ptsTots.ZQ.WS,		USPF.ptsData.SS.WS,		USPF.ptsTots.SS.WS,		questTooltips.WS},
+			{40, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.TR)),						USPF.ptsData.ZQ.TR,		USPF.ptsTots.ZQ.TR,		USPF.ptsData.SS.TR,		USPF.ptsTots.SS.TR,		questTooltips.TR},
 		},
 		SQS_SL_T = strF("%d/%d", USPF.ptsData.ZQTot, USPF.ptsTots.ZQTot),
 		SQS_SS_T = strF("%d/%d", USPF.ptsData.SSTot, USPF.ptsTots.SSTot),
@@ -739,7 +754,7 @@ local function USPF_CheckSavedVars(value)
 		--Write the character settings table.
 		USPF.sVar.settings[charId] = {}
 		USPF.sVar.settings[charId] = USPF_LTF:CopyTable(USPF.settings)
-		
+
 		--Write the character points data table.
 		USPF.sVar.ptsData[charId] = {}
 		USPF.sVar.ptsData[charId] = USPF_LTF:CopyTable(USPF.ptsData)
@@ -749,7 +764,7 @@ end
 
 local function USPF_SetLevelPoints()
 	USPF.ptsData.Level = math.floor(GetUnitLevel("player")/5) + math.floor(GetUnitLevel("player")/10) + (GetUnitLevel("player") - 1)
-	
+
 	--Update saved variables.
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		USPF.sVar.ptsData[selectedChar].Level = USPF.ptsData.Level
@@ -761,19 +776,19 @@ local function USPF_SetQuestPoints()
 	for i=1, #USPF.data.MQ do
 		USPF.ptsData.MainQ = USPF.ptsData.MainQ + (IAchC(USPF.data.MQ[i][2]) and USPF.data.MQ[i][4] or 0)
 	end
-	
+
 	--Morrowind Only Character Quest Skill Points
 	USPF.ptsData.MWChar = ((GCQI(USPF.data.MO[1][1]) ~= "" or USPF.settings.MWC) and USPF.data.MO[1][4] or 0)
-	
+
 	--Summerset Only Character Quest Skill Points
 	USPF.ptsData.SUChar = ((GCQI(USPF.data.SO[1][1]) ~= "" or USPF.settings.SSC) and USPF.data.SO[1][4] or 0)
-	
+
 	--Elsweyr Only Character Quest Skill Points
 	USPF.ptsData.EWChar = ((GCQI(USPF.data.EO[1][1]) ~= "" or USPF.settings.EWC) and USPF.data.EO[1][4] or 0)
-  
+
   	--Greymoor Only Character Quest Skill Points
 	USPF.ptsData.GMChar = ((GCQI(USPF.data.GO[1][1]) ~= "" or USPF.settings.GWC) and USPF.data.GO[1][4] or 0)
-	
+
 	for k,_ in pairs(USPF.ptsData.ZQ) do
 		if(USPF.data[k] ~= nil) then
 			for i=1, #USPF.data[k] do
@@ -782,24 +797,24 @@ local function USPF_SetQuestPoints()
 			USPF.ptsData.ZQTot = USPF.ptsData.ZQTot + USPF.ptsData.ZQ[k]
 		end
 	end
-	
+
 	--Group Dungeon Quest Skill Points
 	for k,_ in pairs(USPF.ptsData.GD) do
 		USPF.ptsData.GD[k] = (GCQI(USPF.data.GD[k][2]) ~= "" and 1 or 0)
 		USPF.ptsData.GDTot = USPF.ptsData.GDTot + USPF.ptsData.GD[k]
 	end
-	
+
 	--Update saved variables for all.
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		USPF.sVar.ptsData[selectedChar].MainQ = USPF.ptsData.MainQ
 		USPF.sVar.ptsData[selectedChar].MWChar = USPF.ptsData.MWChar
 		USPF.sVar.ptsData[selectedChar].SUChar = USPF.ptsData.SUChar
 		USPF.sVar.ptsData[selectedChar].EWChar = USPF.ptsData.EWChar
-		USPF.sVar.ptsData[selectedChar].GMChar = USPF.ptsData.GMChar		
+		USPF.sVar.ptsData[selectedChar].GMChar = USPF.ptsData.GMChar
 
 		USPF.sVar.ptsData[selectedChar].ZQ = USPF_LTF:CopyTable(USPF.ptsData.ZQ)
 		USPF.sVar.ptsData[selectedChar].GD = USPF_LTF:CopyTable(USPF.ptsData.GD)
-		
+
 		USPF.sVar.ptsData[selectedChar].ZQTot = USPF.ptsData.ZQTot
 		USPF.sVar.ptsData[selectedChar].GDTot = USPF.ptsData.GDTot
 	end
@@ -810,7 +825,7 @@ local function USPF_SetPublicDungeonPoints()
 		USPF.ptsData.PD[k] = (IAchC(USPF.data.PD[k][2]) and 1 or 0)
 		USPF.ptsData.PDTot = USPF.ptsData.PDTot + USPF.ptsData.PD[k]
 	end
-	
+
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		--Update saved variables.
 		USPF.sVar.ptsData[selectedChar].PD		= USPF_LTF:CopyTable(USPF.ptsData.PD)
@@ -829,10 +844,10 @@ local function USPF_SetSkyshardPoints()
 		end
 		USPF.ptsData.numSSTot = USPF.ptsData.numSSTot + USPF.ptsData.SS[k]
 	end
-	
+
 	--Calculate the total and round for points.
 	USPF.ptsData.SSTot = math.floor(USPF.ptsData.numSSTot/3)
-	
+
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		--Update saved variables for all.
 		USPF.sVar.ptsData[selectedChar].SS			= USPF_LTF:CopyTable(USPF.ptsData.SS)
@@ -882,9 +897,9 @@ local function USPF_GetReduceAbility(skillType, skillLine, skillIndex)
 		val = ((skillIndex == 2 and skillType == enchantingSkillType and skillLine == enchantingSkillLine) and 1 or val)
 		val = ((skillIndex == 2 and skillType == provisionSkillType and skillLine == provisionSkillLine) and 1 or val)
 	end
-	
+
 	val = ((USPF_IsValidRacialLine(skillType, skillLine) and skillIndex == 1) and 1 or val)
-	
+
 	if skillType == SKILL_TYPE_GUILD then
 		local name, _, _, skillLineId = GetSkillLineInfo(skillType, skillLine)
 		val = (skillLineId == DARK_BROTHERHOOD and (skillIndex == 1 and 1 or val) or val)
@@ -898,10 +913,10 @@ local function USPF_GetSkillSpentPoints(skillType, skillLine, skillIndex)
 	local skills = USPF.cache.skillTypes[skillType].lines[skillLine].skills
 	local _, _, _, _, _, purchased, progressionIndex = GetSkillAbilityInfo(skillType, skillLine, skillIndex)
 	local spent, possible, reduction
-	
+
 	if not purchased then spent = 0 end
 	reduction = USPF_GetReduceAbility(skillType, skillLine, skillIndex)
-	
+
 	if progressionIndex then
 		local _, morph = GetAbilityProgressionInfo(progressionIndex)
 		if not spent then
@@ -936,7 +951,7 @@ local function USPF_GetLineSpentPoints(skillType, skillLine)
 			line.total = line.total + spent[1]
 			line.possible = line.possible + spent[2]
 		end
-		
+
 		return line.total
 	end
 	return 0
@@ -955,7 +970,7 @@ end
 local function USPF_GetTotSkillPoints()
 	USPF.cache.skillTypes = {}
 	USPF.cache.total = GetAvailableSkillPoints()
-	
+
 	for skillType = 1, GetNumSkillTypes() do USPF.cache.total = USPF.cache.total + USPF_GetTypeSpentPoints(skillType) end
 	return USPF.cache.total
 end
@@ -971,7 +986,7 @@ local function USPF_SetFoliumDiscognitumPoints()
 								USPF.ptsData.GDTot + USPF.ptsData.PDTot
 		USPF.ptsData.FolDis = (skillPoints == skillPointsDiff + 2 and 2 or 0)
 	end
-	
+
 	--Update saved variables.
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		USPF.sVar.ptsData[selectedChar].FolDis = USPF.ptsData.FolDis
@@ -980,7 +995,7 @@ end
 
 local function USPF_SetAllianceWarRankPoints()
 	USPF.ptsData.PvPRank = (GetUnitAvARank("player") == nil and 0 or GetUnitAvARank("player"))
-	
+
 	--Update saved variables.
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		USPF.sVar.ptsData[selectedChar].PvPRank = USPF.ptsData.PvPRank
@@ -989,7 +1004,7 @@ end
 
 local function USPF_SetMaelArPoints()
 	USPF.ptsData.MaelAr = (IAchC(USPF.data.MAAch) and 1 or 0)
-	
+
 	--Update saved variables.
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		USPF.sVar.ptsData[selectedChar].MaelAr = USPF.ptsData.MaelAr
@@ -997,9 +1012,9 @@ local function USPF_SetMaelArPoints()
 end
 
 local function USPF_SetGeneralPoints()
-	USPF.ptsData.GenTot =	USPF.ptsData.Level + USPF.ptsData.MainQ + USPF.ptsData.FolDis + USPF.ptsData.MWChar + 
+	USPF.ptsData.GenTot =	USPF.ptsData.Level + USPF.ptsData.MainQ + USPF.ptsData.FolDis + USPF.ptsData.MWChar +
 							USPF.ptsData.SUChar + USPF.ptsData.EWChar + USPF.ptsData.PvPRank + USPF.ptsData.MaelAr
-	
+
 	--Update saved variables.
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		USPF.sVar.ptsData[selectedChar].GenTot = USPF.ptsData.GenTot
@@ -1009,7 +1024,7 @@ end
 local function USPF_SetTotPoints()
 	USPF.ptsData.Tot =	USPF.ptsData.GenTot + USPF.ptsData.ZQTot + USPF.ptsData.SSTot +
 						USPF.ptsData.GDTot + USPF.ptsData.PDTot
-	
+
 	--Update saved variables.
 	if(USPF_CheckSavedVars(USPF.sVar.ptsData[selectedChar])) then
 		USPF.sVar.ptsData[selectedChar].Tot = USPF.ptsData.Tot
@@ -1022,17 +1037,17 @@ end
 
 local function USPF_LoadData(charId)
 	sVarPtsData = USPF.sVar.ptsData[charId]
-	
+
 	if(USPF.sVar.ptsData[charId] == nil) then
 		--Write the character settings table.
 		USPF.sVar.settings[charId] = {}
 		USPF.sVar.settings[charId] = USPF_LTF:CopyTable(USPF.settings)
-		
+
 		--Write the character points data table.
 		USPF.sVar.ptsData[charId] = {}
 		USPF.sVar.ptsData[charId] = USPF_LTF:CopyTable(USPF.ptsData)
 	end
-	
+
 	questTooltips = {
 		WP	 = GS(USPF_QUEST_NONE),
 		AD0	 = GS(USPF_QUEST_NONE),
@@ -1076,10 +1091,11 @@ local function USPF_LoadData(charId)
 		SO	 = GetQuestTooltipText("SO"),
 		TG	 = GetQuestTooltipText("TG"),
 		SU	 = GetQuestTooltipText("SU"),
-    WS   = GetQuestTooltipText("WS"),
-    GO   = GetQuestTooltipText("GO"),
+		WS   = GetQuestTooltipText("WS"),
+		GO   = GetQuestTooltipText("GO"),
+		TR   = GetQuestTooltipText("TR"),
 	}
-	
+
 	USPF.GUI = {
 		GSP = {
 			{1, GS(USPF_GUI_CHAR_LEVEL),	GetSV(sVarPtsData.Level),	USPF.ptsTots.Level,		GS(USPF_QUEST_NA)},
@@ -1133,6 +1149,7 @@ local function USPF_LoadData(charId)
 			{37, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.NE)),						GetSV(sVarPtsData.ZQ.NE),	USPF.ptsTots.ZQ.NE,		GetSV(sVarPtsData.SS.NE),	USPF.ptsTots.SS.NE,		questTooltips.NE},
 			{38, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.SE)),						GetSV(sVarPtsData.ZQ.SE),	USPF.ptsTots.ZQ.SE,		GetSV(sVarPtsData.SS.SE),	USPF.ptsTots.SS.SE,		questTooltips.SE},
 			{39, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.WS)),						GetSV(sVarPtsData.ZQ.WS),	USPF.ptsTots.ZQ.WS,		GetSV(sVarPtsData.SS.WS),	USPF.ptsTots.SS.WS,		questTooltips.WS},
+			{40, zf("<<C:1>>",			GZNBId(USPF.data.ZId.ZN.TR)),						GetSV(sVarPtsData.ZQ.TR),	USPF.ptsTots.ZQ.TR,		GetSV(sVarPtsData.SS.TR),	USPF.ptsTots.SS.TR,		questTooltips.TR},
 		},
 		SQS_SL_T = strF("%d/%d", sVarPtsData.ZQTot, USPF.ptsTots.ZQTot),
 		SQS_SS_T = strF("%d/%d", sVarPtsData.SSTot, USPF.ptsTots.SSTot),
@@ -1218,37 +1235,37 @@ local function USPF_SetupData(charId)
 	if(charId == GCCId()) then
 		--Reset All Points to Zero.
 		USPF.ptsData = USPF_LTF:SimpleResetTable(USPF.ptsData, 0)
-		
+
 		--Update Level Points.
 		USPF_SetLevelPoints()
-		
+
 		--Update Quest Points.
 		USPF_SetQuestPoints()
-		
+
 		--Update Public Dungeon Points.
 		USPF_SetPublicDungeonPoints()
 
 		--Update Skyshard Points.
 		USPF_SetSkyshardPoints()
-		
+
 		--Update Alliance War Rank Points.
 		USPF_SetAllianceWarRankPoints()
-		
+
 		--Update MaelAr Arena Point.
 		USPF_SetMaelArPoints()
-		
+
 		--Update Folium Discognitum Points.
 		USPF_SetFoliumDiscognitumPoints()
-		
+
 		--Update General Points.
 		USPF_SetGeneralPoints()
-		
+
 		--Update Tot Points.
 		USPF_SetTotPoints()
-		
+
 		--Update the GUI Table.
 		USPF_UpdateGUITable()
-		
+
 		--Update the saved variables.
 		USPF_UpdateAllSavedVars()
 	else
@@ -1259,9 +1276,9 @@ end
 
 function USPF:UpdateDataLines()
 	local dataLines_GSP, dataLines_SQS, dataLines_GDQ, dataLines_PDGBE, tempTable = {},{},{},{},{}
-	
+
 	USPF_SetupData(selectedChar)
-	
+
 	for i = 1, #USPF.GUI.GSP do
 		table.insert(dataLines_GSP, {
 			source = USPF.GUI.GSP[i][2],
@@ -1270,7 +1287,7 @@ function USPF:UpdateDataLines()
 					strF("%s%d/%d|r", USPF_rgbToHex(USPF.settings.GSP.doneColor), USPF.GUI.GSP[i][3], USPF.GUI.GSP[i][4])))
 		})
 	end
-	
+
 	tempTable = USPF_LTF:SortTable(USPF.GUI.SQS, USPF.settings.SQS.sortCol)
 	for i = 1, #tempTable do
 		table.insert(dataLines_SQS, {
@@ -1285,7 +1302,7 @@ function USPF:UpdateDataLines()
 					strF("%s%d/%d|r", USPF_rgbToHex(USPF.settings.SQS.doneColorSS), tempTable[i][5], tempTable[i][6]))),
 		})
 	end
-	
+
 	tempTable = USPF_LTF:SortTable(USPF.GUI.GDQ, USPF.settings.GDQ.sortCol)
 	for i = 1, #tempTable do
 		table.insert(dataLines_GDQ, {
@@ -1294,7 +1311,7 @@ function USPF:UpdateDataLines()
 			progress = (tempTable[i][4] < tempTable[i][5] and strF("%s%d/%d|r", USPF_rgbToHex(USPF.settings.GDQ.needColor), tempTable[i][4], tempTable[i][5]) or strF("%s%d/%d|r", USPF_rgbToHex(USPF.settings.GDQ.doneColor), tempTable[i][4], tempTable[i][5])),
 		})
 	end
-	
+
 	tempTable = USPF_LTF:SortTable(USPF.GUI.PDGBE, USPF.settings.PDB.sortCol)
 	for i = 1, #tempTable do
 		table.insert(dataLines_PDGBE, {
@@ -1303,30 +1320,30 @@ function USPF:UpdateDataLines()
 			progress = (tempTable[i][4] < tempTable[i][5] and strF("%s%d/%d|r", USPF_rgbToHex(USPF.settings.PDB.needColor), tempTable[i][4], tempTable[i][5]) or strF("%s%d/%d|r", USPF_rgbToHex(USPF.settings.PDB.doneColor), tempTable[i][4], tempTable[i][5])),
 		})
 	end
-	
-	
+
+
 	USPF_GUI_Header_Title:SetText(GS(USPF_GUI_TITLE))
 	USPF_GUI_Body_GSP:SetText(GS(USPF_GUI_GSP))
 	USPF_GUI_Body_GSP_Source:SetText(GS(USPF_GUI_SOURCE))
 	USPF_GUI_Body_GSP_Progress:SetText(GS(USPF_GUI_PROGRESS))
-	
+
 	USPF_GUI_Body_SQS:SetText(GS(USPF_GUI_SQS))
 	USPF_GUI_Body_SQS_Z:SetText(GS(USPF_GUI_ZONE))
 	USPF_GUI_Body_SQS_SL:SetText(GS(USPF_GUI_STORYLINE))
 	USPF_GUI_Body_SQS_SS:SetText(GS(USPF_GUI_SKYSHARDS))
 	USPF_GUI_Body_SQS_Z_T:SetText(GS(USPF_GUI_TOTAL..":"))
-	
+
 	USPF_GUI_Body_GDQ:SetText(GS(USPF_GUI_GDQ))
 	USPF_GUI_Body_GDQ_Z:SetText(GS(USPF_GUI_ZONE))
 	USPF_GUI_Body_GDQ_D:SetText(GS(USPF_GUI_GROUP_DUNGEON))
 	USPF_GUI_Body_GDQ_P:SetText(GS(USPF_GUI_PROGRESS))
-	
+
 	USPF_GUI_Body_PDGBE:SetText(GS(USPF_GUI_PDB))
 	USPF_GUI_Body_PDGBE_Z:SetText(GS(USPF_GUI_ZONE))
 	USPF_GUI_Body_PDGBE_D:SetText(GS(USPF_GUI_PUBLIC_DUNGEON))
 	USPF_GUI_Body_PDGBE_P:SetText(GS(USPF_GUI_PROGRESS))
-	
-	
+
+
 	USPF_GUI_Body_GSP_ListHolder.dataLines = dataLines_GSP
 	USPF_GUI_Body_GSP_ListHolder:SetParent(USPF_GUI_Body)
 	USPF_GUI_Body_SQS_ListHolder.dataLines = dataLines_SQS
@@ -1335,20 +1352,20 @@ function USPF:UpdateDataLines()
 	USPF_GUI_Body_GDQ_ListHolder:SetParent(USPF_GUI_Body)
 	USPF_GUI_Body_PDGBE_ListHolder.dataLines = dataLines_PDGBE
 	USPF_GUI_Body_PDGBE_ListHolder:SetParent(USPF_GUI_Body)
-	
+
 	USPF_GUI_Body_GSP_T:SetText(USPF.GUI.GSP_T)
 	USPF_GUI_Body_SQS_SL_T:SetText(USPF.GUI.SQS_SL_T)
 	USPF_GUI_Body_SQS_SS_T:SetText(USPF.GUI.SQS_SS_T)
 	USPF_GUI_Body_GDQ_T:SetText(USPF.GUI.GDQ_T)
 	USPF_GUI_Body_PDGBE_T:SetText(USPF.GUI.PDGBE_T)
 	USPF_GUI_Footer_CharacterTotal:SetText(USPF.GUI.CharacterTot)
-	
+
 	USPF:InitializeDataLines()
 end
 
 function USPF:FillLine(currLine, currItem)
 	local cln, clsrc, clz, clq, clss, cld, clp, cisrc, ciz, ciq, ciss, cid, cip = currLine:GetParent():GetName(), currLine.source, currLine.zone, currLine.quests, currLine.skyshards, currLine.dungeon, currLine.progress, currItem.source, currItem.zone, currItem.quests, currItem.skyshards, currItem.dungeon, currItem.progress
-	
+
 	if currItem == nil then
 		if(cln == "USPF_GUI_Body_GSP_ListHolder") then
 			clsrc:SetText("")
@@ -1392,56 +1409,56 @@ function USPF:InitializeDataLines()
 		currLine = USPF_GUI_Body_GSP_ListHolder.lines[i]
 		currData = USPF_GUI_Body_GSP_ListHolder.dataLines[i]
 		USPF:FillLine(currLine, (currData ~= nil and currData or nil))
-		
+
 		if(USPF.GUI.GSP[i][5] ~= nil) then
 			-- tooltip text
 			USPF_GUI_Body_GSP_ListHolder.lines[i].data = {tooltipText = USPF.GUI.GSP[i][5]}
-			
+
 			-- tooltip handlers
 			USPF_GUI_Body_GSP_ListHolder.lines[i]:SetHandler("OnMouseEnter", ZO_Options_OnMouseEnter)
 			USPF_GUI_Body_GSP_ListHolder.lines[i]:SetHandler("OnMouseExit", ZO_Options_OnMouseExit)
 		end
 	end
-	
+
 	for i = 1, #USPF.GUI.SQS do
 		currLine = USPF_GUI_Body_SQS_ListHolder.lines[i]
 		currData = USPF_GUI_Body_SQS_ListHolder.dataLines[i]
 		USPF:FillLine(currLine, (currData ~= nil and currData or nil))
-		
+
 		if(USPF.GUI.SQS[i][7] ~= nil) then
 			-- tooltip text
 			USPF_GUI_Body_SQS_ListHolder.lines[i].data = {tooltipText = USPF.GUI.SQS[i][7]}
-			
+
 			-- tooltip handlers
 			USPF_GUI_Body_SQS_ListHolder.lines[i]:SetHandler("OnMouseEnter", ZO_Options_OnMouseEnter)
 			USPF_GUI_Body_SQS_ListHolder.lines[i]:SetHandler("OnMouseExit", ZO_Options_OnMouseExit)
 		end
 	end
-	
+
 	for i = 1, #USPF.GUI.GDQ do
 		currLine = USPF_GUI_Body_GDQ_ListHolder.lines[i]
 		currData = USPF_GUI_Body_GDQ_ListHolder.dataLines[i]
 		USPF:FillLine(currLine, (currData ~= nil and currData or nil))
-		
+
 		if(USPF.GUI.GDQ[i][6] ~= nil) then
 			-- tooltip text
 			USPF_GUI_Body_GDQ_ListHolder.lines[i].data = {tooltipText = USPF.GUI.GDQ[i][6]}
-			
+
 			-- tooltip handlers
 			USPF_GUI_Body_GDQ_ListHolder.lines[i]:SetHandler("OnMouseEnter", ZO_Options_OnMouseEnter)
 			USPF_GUI_Body_GDQ_ListHolder.lines[i]:SetHandler("OnMouseExit", ZO_Options_OnMouseExit)
 		end
 	end
-	
+
 	for i = 1, #USPF.GUI.PDGBE do
 		currLine = USPF_GUI_Body_PDGBE_ListHolder.lines[i]
 		currData = USPF_GUI_Body_PDGBE_ListHolder.dataLines[i]
 		USPF:FillLine(currLine, (currData ~= nil and currData or nil))
-		
+
 		if(USPF.GUI.PDGBE[i][6] ~= nil) then
 			-- tooltip text
 			USPF_GUI_Body_PDGBE_ListHolder.lines[i].data = {tooltipText = USPF.GUI.PDGBE[i][6]}
-			
+
 			-- tooltip handlers
 			USPF_GUI_Body_PDGBE_ListHolder.lines[i]:SetHandler("OnMouseEnter", ZO_Options_OnMouseEnter)
 			USPF_GUI_Body_PDGBE_ListHolder.lines[i]:SetHandler("OnMouseExit", ZO_Options_OnMouseExit)
@@ -1459,17 +1476,17 @@ end
 function USPF:CreateLine(i, USPF_predecessor, USPF_parent)
 	if(USPF_parent:GetName() == "USPF_GUI_Body_GSP_ListHolder") then
 		local USPF_record = CreateControlFromVirtual("USPF_GSP_Row_", USPF_parent, "USPF_GeneralTemplate", i)
-		
+
 		USPF_record.source = USPF_record:GetNamedChild("_Source")
 		USPF_record.progress = USPF_record:GetNamedChild("_Progress")
-		
+
 		USPF_record.source:SetFont(USPF.Options.Font.Fonts[USPF.settings.GSP.font].."|14")
 		USPF_record.progress:SetFont(USPF.Options.Font.Fonts[USPF.settings.GSP.font].."|14")
-		
+
 		USPF_record:SetHidden(false)
 		USPF_record:SetMouseEnabled(true)
 		USPF_record:SetHeight("18")
-		
+
 		if i == 1 then
 			USPF_record:SetAnchor(TOPLEFT, USPF_GUI_Body_GSP_ListHolder, TOPLEFT, 0, 0)
 			USPF_record:SetAnchor(TOPRIGHT, USPF_GUI_Body_GSP_ListHolder, TOPRIGHT, 0, 0)
@@ -1481,19 +1498,19 @@ function USPF:CreateLine(i, USPF_predecessor, USPF_parent)
 		return USPF_record
 	elseif(USPF_parent:GetName() == "USPF_GUI_Body_SQS_ListHolder") then
 		local USPF_record = CreateControlFromVirtual("USPF_SQS_Row_", USPF_parent, "USPF_SQSSTemplate", i)
-		
+
 		USPF_record.zone = USPF_record:GetNamedChild("_Zone")
 		USPF_record.quests = USPF_record:GetNamedChild("_Quests")
 		USPF_record.skyshards = USPF_record:GetNamedChild("_Skyshards")
-		
+
 		USPF_record.zone:SetFont(USPF.Options.Font.Fonts[USPF.settings.SQS.font].."|14")
 		USPF_record.quests:SetFont(USPF.Options.Font.Fonts[USPF.settings.SQS.font].."|14")
 		USPF_record.skyshards:SetFont(USPF.Options.Font.Fonts[USPF.settings.SQS.font].."|14")
-		
+
 		USPF_record:SetHidden(false)
 		USPF_record:SetMouseEnabled(true)
 		USPF_record:SetHeight("18")
-		
+
 		if i == 1 then
 			USPF_record:SetAnchor(TOPLEFT, USPF_GUI_Body_SQS_ListHolder, TOPLEFT, 0, 0)
 			USPF_record:SetAnchor(TOPRIGHT, USPF_GUI_Body_SQS_ListHolder, TOPRIGHT, 0, 0)
@@ -1505,19 +1522,19 @@ function USPF:CreateLine(i, USPF_predecessor, USPF_parent)
 		return USPF_record
 	elseif(USPF_parent:GetName() == "USPF_GUI_Body_GDQ_ListHolder") then
 		local USPF_record = CreateControlFromVirtual("USPF_GDQ_Row_", USPF_parent, "USPF_GDQTemplate", i)
-		
+
 		USPF_record.zone = USPF_record:GetNamedChild("_Zone")
 		USPF_record.dungeon = USPF_record:GetNamedChild("_Dungeon")
 		USPF_record.progress = USPF_record:GetNamedChild("_Progress")
-		
+
 		USPF_record.zone:SetFont(USPF.Options.Font.Fonts[USPF.settings.GDQ.font].."|14")
 		USPF_record.dungeon:SetFont(USPF.Options.Font.Fonts[USPF.settings.GDQ.font].."|14")
 		USPF_record.progress:SetFont(USPF.Options.Font.Fonts[USPF.settings.GDQ.font].."|14")
-		
+
 		USPF_record:SetHidden(false)
 		USPF_record:SetMouseEnabled(true)
 		USPF_record:SetHeight("18")
-		
+
 		if i == 1 then
 			USPF_record:SetAnchor(TOPLEFT, USPF_GUI_Body_GDQ_ListHolder, TOPLEFT, 0, 0)
 			USPF_record:SetAnchor(TOPRIGHT, USPF_GUI_Body_GDQ_ListHolder, TOPRIGHT, 0, 0)
@@ -1529,19 +1546,19 @@ function USPF:CreateLine(i, USPF_predecessor, USPF_parent)
 		return USPF_record
 	elseif(USPF_parent:GetName() == "USPF_GUI_Body_PDGBE_ListHolder") then
 		local USPF_record = CreateControlFromVirtual("USPF_PDGBE_Row_", USPF_parent, "USPF_PDGBETemplate", i)
-		
+
 		USPF_record.zone = USPF_record:GetNamedChild("_Zone")
 		USPF_record.dungeon = USPF_record:GetNamedChild("_Dungeon")
 		USPF_record.progress = USPF_record:GetNamedChild("_Progress")
-		
+
 		USPF_record.zone:SetFont(USPF.Options.Font.Fonts[USPF.settings.PDB.font].."|14")
 		USPF_record.dungeon:SetFont(USPF.Options.Font.Fonts[USPF.settings.PDB.font].."|14")
 		USPF_record.progress:SetFont(USPF.Options.Font.Fonts[USPF.settings.PDB.font].."|14")
-		
+
 		USPF_record:SetHidden(false)
 		USPF_record:SetMouseEnabled(true)
 		USPF_record:SetHeight("18")
-		
+
 		if i == 1 then
 			USPF_record:SetAnchor(TOPLEFT, USPF_GUI_Body_PDGBE_ListHolder, TOPLEFT, 0, 0)
 			USPF_record:SetAnchor(TOPRIGHT, USPF_GUI_Body_PDGBE_ListHolder, TOPRIGHT, 0, 0)
@@ -1558,11 +1575,11 @@ function USPF:CreateListHolders()
 	local USPF_predecessor = nil
 	USPF_GUI_Body_GSP_ListHolder.dataLines = {}
 	USPF_GUI_Body_GSP_ListHolder.lines = {}
-	for i = 1, #USPF.GUI.GSP do 
+	for i = 1, #USPF.GUI.GSP do
 		USPF_GUI_Body_GSP_ListHolder.lines[i] = USPF:CreateLine(i, USPF_predecessor, USPF_GUI_Body_GSP_ListHolder)
 		USPF_predecessor = USPF_GUI_Body_GSP_ListHolder.lines[i]
 	end
-	
+
 	USPF_predecessor = nil
 	USPF_GUI_Body_SQS_ListHolder.dataLines = {}
 	USPF_GUI_Body_SQS_ListHolder.lines = {}
@@ -1570,7 +1587,7 @@ function USPF:CreateListHolders()
 		USPF_GUI_Body_SQS_ListHolder.lines[i] = USPF:CreateLine(i, USPF_predecessor, USPF_GUI_Body_SQS_ListHolder)
 		USPF_predecessor = USPF_GUI_Body_SQS_ListHolder.lines[i]
 	end
-	
+
 	USPF_predecessor = nil
 	USPF_GUI_Body_GDQ_ListHolder.dataLines = {}
 	USPF_GUI_Body_GDQ_ListHolder.lines = {}
@@ -1578,7 +1595,7 @@ function USPF:CreateListHolders()
 		USPF_GUI_Body_GDQ_ListHolder.lines[i] = USPF:CreateLine(i, USPF_predecessor, USPF_GUI_Body_GDQ_ListHolder)
 		USPF_predecessor = USPF_GUI_Body_GDQ_ListHolder.lines[i]
 	end
-	
+
 	USPF_predecessor = nil
 	USPF_GUI_Body_PDGBE_ListHolder.dataLines = {}
 	USPF_GUI_Body_PDGBE_ListHolder.lines = {}
@@ -1586,7 +1603,7 @@ function USPF:CreateListHolders()
 		USPF_GUI_Body_PDGBE_ListHolder.lines[i] = USPF:CreateLine(i, USPF_predecessor, USPF_GUI_Body_PDGBE_ListHolder)
 		USPF_predecessor = USPF_GUI_Body_PDGBE_ListHolder.lines[i]
 	end
-	
+
 	USPF:UpdateDataLines()
 end
 
@@ -1603,60 +1620,60 @@ end
 function USPF:SetupValues()
 	--Reset All Points to Zero.
 	USPF.ptsData = USPF_LTF:SimpleResetTable(USPF.ptsData, 0)
-	
+
 	--Update Level Points.
 	USPF_SetLevelPoints()
-	
+
 	--Update Quest Points.
 	USPF_SetQuestPoints()
-	
+
 	--Update Public Dungeon Points.
 	USPF_SetPublicDungeonPoints()
 
 	--Update Skyshard Points.
 	USPF_SetSkyshardPoints()
-	
+
 	--Update Alliance War Rank Points.
 	USPF_SetAllianceWarRankPoints()
-	
+
 	--Update MaelAr Arena Point.
 	USPF_SetMaelArPoints()
-	
+
 	--Update Folium Discognitum Points.
 	USPF_SetFoliumDiscognitumPoints()
-	
+
 	--Update General Points.
 	USPF_SetGeneralPoints()
-	
+
 	--Update Tot Points.
 	USPF_SetTotPoints()
-	
+
 	--Update the GUI Table.
 	USPF_UpdateGUITable()
-	
+
 	--Set the window size and position.
 	USPF_GUI:ClearAnchors()
 	USPF_GUI:SetAnchor(CENTER, GuiRoot, CENTER, 0, 0)
 	USPF_GUI:SetHeight(USPF_GUI_Header:GetHeight() + #USPF.GUI.GDQ * 18 + USPF_GUI_Footer:GetHeight() + 18 + 76)
-	
+
 	--Add information to window.
 	USPF:CreateListHolders()
-	
+
 	USPF_GUI_Header:SetParent(USPF_GUI)
 	USPF_GUI_Body:SetParent(USPF_GUI)
 	USPF_GUI_Footer:SetParent(USPF_GUI)
-	
+
 	USPF_GUI_Body_GSP_ListHolder:SetParent(USPF_GUI_Body)
 	USPF_GUI_Body_SQS_ListHolder:SetParent(USPF_GUI_Body)
 	USPF_GUI_Body_GDQ_ListHolder:SetParent(USPF_GUI_Body)
 	USPF_GUI_Body_PDGBE_ListHolder:SetParent(USPF_GUI_Body)
-	
+
 	USPF_GUI_Header_Title:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|30")
 	USPF_GUI_Body_GSP:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|16")
 	USPF_GUI_Body_GSP_Source:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_GSP_Progress:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_GSP_T:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
-	
+
 	USPF_GUI_Body_SQS:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|16")
 	USPF_GUI_Body_SQS_Z:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_SQS_SL:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
@@ -1664,19 +1681,19 @@ function USPF:SetupValues()
 	USPF_GUI_Body_SQS_Z_T:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_SQS_SL_T:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_SQS_SS_T:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
-	
+
 	USPF_GUI_Body_GDQ:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|16")
 	USPF_GUI_Body_GDQ_Z:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_GDQ_D:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_GDQ_P:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_GDQ_T:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
-	
+
 	USPF_GUI_Body_PDGBE:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|16")
 	USPF_GUI_Body_PDGBE_Z:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_PDGBE_D:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_PDGBE_P:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
 	USPF_GUI_Body_PDGBE_T:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|14")
-	
+
 	USPF_GUI_Footer_CharacterTotal:SetFont(USPF.Options.Font.Fonts[USPF.settings.title.font].."|24")
 end
 
@@ -1698,22 +1715,22 @@ end
 local function USPF_LoadSettings(charId)
 	if(USPF_CheckSavedVars(USPF.sVar.settings[charId])) then
 		USPF.settings = USPF_LTF:CopyTable(USPF.sVar.settings[charId])
-		
+
 		if(USPF.settings.GSP.progColor == nil) then
 			USPF.settings.GSP.progColor = USPF.settings.GSP.progColor == nil and {1, 1, 1} or USPF.settings.GSP.progColor
 			USPF.sVar.settings[charId].GSP.progColor = USPF.settings.GSP.progColor
 		end
-		
+
 		if(USPF.settings.SQS.progColorSS == nil) then
 			USPF.settings.SQS.progColorSS = USPF.settings.SQS.progColorSS == nil and {0.7843, 0.3922, 0} or USPF.settings.SQS.progColorSS
 			USPF.sVar.settings[charId].SQS.progColorSS = USPF.settings.SQS.progColorSS
 		end
-		
+
 		if(USPF.settings.SQS.progColorZQ == nil) then
 			USPF.settings.SQS.progColorZQ = USPF.settings.SQS.progColorZQ == nil and {0.7843, 0.3922, 0} or USPF.settings.SQS.progColorZQ
 			USPF.sVar.settings[charId].SQS.progColorZQ = USPF.settings.SQS.progColorZQ
 		end
-		
+
 		USPF.settings.MWC = (USPF.sVar.settings[charId].SSC and false or USPF.sVar.settings[charId].MWC)
 		USPF.settings.SSC = (USPF.sVar.settings[charId].MWC and false or USPF.sVar.settings[charId].SSC)
 		USPF.sVar.settings[charId].MWC = (USPF.settings.SSC and false or USPF.settings.MWC)
@@ -1733,14 +1750,14 @@ end
 local function USPF_CreateCharList()
 	USPF_GUI_Header_CharList.comboBox = USPF_GUI_Header_CharList.comboBox or ZO_ComboBox_ObjectFromContainer(USPF_GUI_Header_CharList)
 	local USPF_comboBox = USPF_GUI_Header_CharList.comboBox
-	
+
 	-- tooltip text
 	USPF_GUI_Header_CharList.data = {tooltipText = "Select a character to view. You must have logged in on the selected character with this addon active for information to populate."}
-	
+
 	-- tooltip handlers
 	USPF_GUI_Header_CharList:SetHandler("OnMouseEnter", ZO_Options_OnMouseEnter)
 	USPF_GUI_Header_CharList:SetHandler("OnMouseExit", ZO_Options_OnMouseExit)
-	
+
 	local name, id = nil, nil
 	USPF.charNames = {}
 	USPF.charData = {}
@@ -1751,13 +1768,13 @@ local function USPF_CreateCharList()
 			charId = USPF.sVar.charInfo[k].charId,
 			charName = USPF.sVar.charInfo[k].charName,
 		}
-		
+
 		if(GCCId() == USPF.charData[k].charId) then
 			currentCharName = USPF.charData[k].charName
 			selectedChar = USPF.charData[k].charId
 		end
 	end
-	
+
 	function OnItemSelect(_, choiceText, choice)
 		USPF_SetSelectedChar(choiceText)
 		USPF:UpdateDataLines()
@@ -1765,7 +1782,7 @@ local function USPF_CreateCharList()
 	end
 
 	USPF_comboBox:SetSortsItems(false)
-	
+
 	for k,_ in ipairs(USPF.charNames) do
 		USPF_comboBox:AddItem(USPF_comboBox:CreateItemEntry(USPF.charNames[k], OnItemSelect))
 		if(USPF.charNames[k] == currentCharName) then
@@ -1787,7 +1804,7 @@ local function USPF_InitSetup()
 	local id, name, thisCharId = nil, nil, GCCId()
 	local firstRun = ((USPF.sVar.firstRun or USPF.sVar.numChars == 0 or USPF.sVar.charInfo[1] == nil) and true or false)
 	--local firstRun = ((USPF.sVar.firstRun or USPF.sVar.numChars == 0 or USPF.sVar.charInfo[1] == nil or USPF.sVar.settings[thisCharId] == nil or USPF.sVar.ptsData[thisCharId] == nil) and true or false)
-	
+
 	--If first run then setup the character table
 	if(firstRun) then
 		d(GS(USPF_MSG_INIT))
@@ -1795,36 +1812,36 @@ local function USPF_InitSetup()
 		for i = 1, GetNumCharacters() do
 			name, _, _, _, _, _, id, _ = GetCharacterInfo(i)
 			USPF.sVar.charInfo[i] = {charId = id, charName = zf("<<t:1>>", name),}
-			
+
 			--Write the character settings table.
 			USPF.sVar.settings[id] = {}
 			USPF.sVar.settings[id] = USPF_LTF:CopyTable(USPF.settings)
-			
+
 			--Write the character points data table.
 			USPF.sVar.ptsData[id] = {}
 			USPF.sVar.ptsData[id] = USPF_LTF:CopyTable(USPF.ptsData)
 		end
-		
+
 		--Show the welcome message.
 		d(GS(USPF_MSG_HELP))
-		
+
 		USPF.sVar.firstRun = false
 	end
-	
+
 	--Setup the character info table.
 	if(not firstRun) then USPF_UpdateCharList() end
-	
+
 	--Check for added characters.
 	for _,v in pairs(USPF.sVar.charInfo) do
 		if(not USPF_LTF:TableContains(USPF.sVar.settings, v.charId, true)) then
 			USPF.sVar.settings[v.charId] = USPF_LTF:CopyTable(USPF.settings)
 		end
-		
+
 		if(not USPF_LTF:TableContains(USPF.sVar.ptsData, v.charId, true)) then
 			USPF.sVar.ptsData[v.charId] = USPF_LTF:CopyTable(USPF.ptsData)
 		end
 	end
-	
+
 	--Check for removed characters.
 	for k,_ in pairs(USPF.sVar.settings) do
 		USPF.sVar.settings[k] = (USPF_LTF:TableContains(USPF.sVar.charInfo, k, false) and USPF.sVar.settings[k] or nil)
@@ -1832,7 +1849,7 @@ local function USPF_InitSetup()
 	for k,_ in pairs(USPF.sVar.ptsData) do
 		USPF.sVar.ptsData[k] = (USPF_LTF:TableContains(USPF.sVar.charInfo, k, false) and USPF.sVar.ptsData[k] or nil)
 	end
-	
+
 	--Create the character select box.
 	USPF_CreateCharList()
 end
@@ -1872,20 +1889,20 @@ end
 
 local function USPF_Initialized(eventCode, addonName)
 	if addonName ~= USPF.AddonName then return end
-	
+
 	local world = GetWorldName()
 	if(world == "NA Megaserver") then
 		USPF.sVar = ZO_SavedVars:NewAccountWide("USPF_Settings", USPF.version, nil, USPF.defaults)
 	else
 		USPF.sVar = ZO_SavedVars:NewAccountWide("USPF_Settings", USPF.version, world, USPF.defaults)
 	end
-	
+
 	--Run the startup routine.
 	USPF_InitSetup()
-	
+
 	--Create the keybind(s).
 	ZO_CreateStringId("SI_BINDING_NAME_USPF_TOGGLE", "Show Skill Point Finder")
-	
+
 	--Register the slash commands.
 	SLASH_COMMANDS["/uspf"] = function(keyWord, argument)
 		if(string.lower(keyWord) == "help") then
@@ -1898,18 +1915,18 @@ local function USPF_Initialized(eventCode, addonName)
 			USPF:BadSlash()
 		end
 	end
-	
+
 	local charId = GCCId()
-	
+
 	--Load the character settings.
 	USPF_LoadSettings(charId)
-	
+
 	--Create the options menu.
 	USPF:SetupMenu(charId)
-	
+
 	--Call startup routine.
 	USPF:SetupValues()
-	
+
 	--Create the event handlers.
 	EM:RegisterForEvent(USPF.AddonName, EVENT_SKILL_POINTS_CHANGED, USPF_SkillPointsUpdate)
 	EM:RegisterForEvent(USPF.AddonName, EVENT_QUEST_REMOVED, USPF_QuestRemoved)
@@ -1918,7 +1935,7 @@ local function USPF_Initialized(eventCode, addonName)
 	--EM:RegisterForEvent(USPF.AddonName, EVENT_ACHIEVEMENT_UPDATED, USPF_AchUpdate)
 	EM:RegisterForEvent(USPF.AddonName, EVENT_PLAYER_ACTIVATED, USPF_PlayerActivated)
 	EM:RegisterForEvent(USPF.AddonName, EVENT_PLAYER_DEACTIVATED, USPF_PlayerDeactivated)
-	
+
 	--Kill the initial event handler.
 	EM:UnregisterForEvent(USPF.AddonName, EVENT_ADD_ON_LOADED)
 end
