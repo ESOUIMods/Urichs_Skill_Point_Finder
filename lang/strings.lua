@@ -66,12 +66,17 @@ local strings = {
 	USPF_SETTINGS_OVERRIDE_EWC_SET_DESC = "This setting allows you to override the USPF's built-in Elsweyr intro quest logic. This is usually only necessary if you've created a character after the release of Elsweyr and skipped the \"Bright Moons, Warm Sands\" introduction quest.",
 	USPF_SETTINGS_OVERRIDE_EWC_SET_WARN = "May result in an incorrect total amount of skill points in USPF.",
 	
+  USPF_SETTINGS_OVERRIDE_GMC_SET = "Greymoor Quest Override",
+	USPF_SETTINGS_OVERRIDE_GMC_SET_DESC = "This setting allows you to override the USPF's built-in Greymoor intro quest logic. This is usually only necessary if you've created a character after the release of Elsweyr and skipped the \"Bright Moons, Warm Sands\" introduction quest.",
+	USPF_SETTINGS_OVERRIDE_GMC_SET_WARN = "May result in an incorrect total amount of skill points in USPF.",
+  
 	USPF_GUI_CHAR_LEVEL	= "Character Level",
 	USPF_GUI_MAIN_QUEST	= "Main Quest",
 	USPF_GUI_FOLIUM		= "Folium Discognitum",
 	USPF_GUI_MW_CHAR	= "Morrowind Character",
 	USPF_GUI_SU_CHAR	= "Summerset Character",
 	USPF_GUI_EW_CHAR	= "Elsweyr Character",
+  USPF_GUI_GM_CHAR	= "Greymoor Character",
 	USPF_GUI_AVA_RANK	= "Alliance War Rank",
 	USPF_GUI_MAEL_ARENA	= "Maelstrom Arena",
 	
@@ -222,6 +227,8 @@ local strings = {
 	USPF_QUEST_GD_MF	= "The Sanguine Successor",
 	USPF_QUEST_GD_IR	= "The Frozen Isle",
 	USPF_QUEST_GD_UG	= "Unhallowed Grave",
+	USPF_QUEST_GD_SG	= "Method and Madness",
+	USPF_QUEST_GD_CT	= "Blood of the Past",
 	USPF_QUEST_IC		= "The Sublime Brazier",
 	USPF_QUEST_MM_1		= "Sunken Treasure",
 	USPF_QUEST_MM_2		= "Missing in Murkmire",
@@ -270,6 +277,10 @@ local strings = {
 	USPF_QUEST_SU_1		= "Buried Memories",
 	USPF_QUEST_SU_2		= "Lost in Translation",
 	USPF_QUEST_SU_3		= "The Crystal Tower",
+	USPF_QUEST_WS_1		= "Dark Clouds Over Solitude",
+	USPF_QUEST_WS_2		= "The Vampire Scholar",
+	USPF_QUEST_WS_3		= "Daughter of the Wolf",
+	USPF_QUEST_GO		= "Bound in Blood",
 }
 
 for stringId, stringValue in pairs(strings) do
