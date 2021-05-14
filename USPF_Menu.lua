@@ -4,20 +4,34 @@ local ADDON_NAME = GetString(USPF_GUI_TITLE)
 local ADDON_AUTHOR = "Urich"
 local ADDON_VERSION = "5.0.5"
 
+-- Original 5.2.0 
+		-- Fonts = {
+			-- ["ProseAntique"]			= "/EsoUI/Common/Fonts/ProseAntiquePSMT.otf",		--ANTIQUE_FONT
+			-- ["Consolas"]				= "/EsoUI/Common/Fonts/consola.ttf",				--
+			-- ["Futura Condensed"]		= "/EsoUI/Common/Fonts/FTN57.otf",					--GAMEPAD_MEDIUM_FONT
+			-- ["Futura Condensed Bold"]	= "/EsoUI/Common/Fonts/FTN87.otf",					--GAMEPAD_BOLD_FONT
+			-- ["Futura Condensed Light"]	= "/EsoUI/Common/Fonts/FTN47.otf",					--GAMEPAD_LIGHT_FONT
+			-- ["Skyrim Handwritten"]		= "/EsoUI/Common/Fonts/Handwritten_Bold.otf",		--HANDWRITTEN_FONT
+			-- ["Trajan Pro"]				= "/EsoUI/Common/Fonts/trajanpro-regular.otf",		--STONE_TABLET_FONT
+			-- ["Univers 55"]				= "/EsoUI/Common/Fonts/univers55.otf",				--
+			-- ["Univers 57"]				= "/EsoUI/Common/Fonts/univers57.otf",				--MEDIUM_FONT/CHAT_FONT
+			-- ["Univers 67"]				= "/EsoUI/Common/Fonts/univers67.otf",				--BOLD_FONT
+		-- },
 
+-- Font code changed for v 5.3.0
 USPF.Options = {
 	Font = {
 		Fonts = {
-			["ProseAntique"]			= "/EsoUI/Common/Fonts/ProseAntiquePSMT.otf",		--ANTIQUE_FONT
+			["ProseAntique"]			= ZoFontBookPaper:GetFontInfo(),					--ANTIQUE_FONT
 			["Consolas"]				= "/EsoUI/Common/Fonts/consola.ttf",				--
 			["Futura Condensed"]		= "/EsoUI/Common/Fonts/FTN57.otf",					--GAMEPAD_MEDIUM_FONT
 			["Futura Condensed Bold"]	= "/EsoUI/Common/Fonts/FTN87.otf",					--GAMEPAD_BOLD_FONT
 			["Futura Condensed Light"]	= "/EsoUI/Common/Fonts/FTN47.otf",					--GAMEPAD_LIGHT_FONT
-			["Skyrim Handwritten"]		= "/EsoUI/Common/Fonts/Handwritten_Bold.otf",		--HANDWRITTEN_FONT
-			["Trajan Pro"]				= "/EsoUI/Common/Fonts/trajanpro-regular.otf",		--STONE_TABLET_FONT
+			["Skyrim Handwritten"]		= ZoFontBookLetter:GetFontInfo(),					--HANDWRITTEN_FONT
+			["Trajan Pro"]				= ZoFontBookTablet:GetFontInfo(),					--STONE_TABLET_FONT
 			["Univers 55"]				= "/EsoUI/Common/Fonts/univers55.otf",				--
-			["Univers 57"]				= "/EsoUI/Common/Fonts/univers57.otf",				--MEDIUM_FONT/CHAT_FONT
-			["Univers 67"]				= "/EsoUI/Common/Fonts/univers67.otf",				--BOLD_FONT
+			["Univers 57"]				= ZoFontGame:GetFontInfo(),							--MEDIUM_FONT/CHAT_FONT
+			["Univers 67"]				= ZoFontGameBold:GetFontInfo(),						--BOLD_FONT
 		},
 		Names = {"ProseAntique", "Consolas", "Futura Condensed", "Futura Condensed Bold", "Futura Condensed Light", "Skyrim Handwritten", "Trajan Pro", "Univers 55", "Univers 57", "Univers 67"},
 	},
