@@ -836,6 +836,7 @@ local function USPF_GetReduceAbility(skillType, skillLine, skillIndex)
 		local name, _, _, skillLineId = GetSkillLineInfo(skillType, skillLine)
 		val = (skillLineId == SOUL_MAGIC and skillIndex == 2 and 1 or val or val)
 		val = (IsWerewolfSkillLine(skillType, skillLine) and skillIndex == 1 and 1 or val)
+		val = (IsWerewolfSkillLine(skillType, skillLine) and skillIndex == 7 and 1 or val)
 	end
 	if skillType == SKILL_TYPE_TRADESKILL then
 		val = (skillIndex == 1 and 1 or val)
